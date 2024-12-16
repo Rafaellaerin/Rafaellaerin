@@ -11,9 +11,23 @@
 
 ## contacts:
 
-<div>
-<a href="https://instagram.com/laerinx" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-<a href="https://www.twitch.tv/seu-usuário-aqui" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" target="_blank"></a>
-<a href = "mailto:contato@seu-usuário-aqui"><img loading="lazy" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-<a href="https://www.linkedin.com/in/seu-usuário-linkedln-aqui" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>   
-</div>
+<!-- Instagram -->
+<a href="https://www.instagram.com/LaerinX" target="_blank">
+  <img loading="lazy" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank">
+</a>
+
+<!-- X (Twitter) -->
+<a href="https://twitter.com/Rafaellaerin" target="_blank">
+  <img loading="lazy" src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=twitter&logoColor=white" target="_blank">
+</a>
+
+<!-- Discord (Servidor) -->
+<a href="https://discord.gg/vrnuB28eyP" target="_blank">
+  <img loading="lazy" src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" target="_blank">
+</a>
+
+<!-- Reddit -->
+<a href="https://www.reddit.com/user/Hot-Fun2441" target="_blank">
+  <img loading="lazy" src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white" target="_blank">
+</a>
+
