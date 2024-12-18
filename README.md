@@ -1,11 +1,10 @@
-<h1 align="center"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"> <b>Hello! Welcome!</b></h1>
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br>
+<h2 align="center"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"> <b>Hello! Welcome!</b></h2><br>
 
 # ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀📊 GitHub Stats
 
 | Top Languages | GitHub Profile Card |
 |---------------|---------------------|
-| ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Rafaellaerin&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact) | ![GitHub Profile Card](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Rafaellaerin&theme=radical) |
+| ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Rafaellaerin&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact) | ![GitHub Profile Card](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Rafaellaerin&theme=radical) | 
 
 <h2>Skills</h2>
 
@@ -19,6 +18,8 @@
 <a href="#"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a>
 <a href="#"><img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go"></a>
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br>
+
 <!-- Website -->
 <h3>• Website</h3>
 <a href="#"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"></a>
@@ -28,6 +29,8 @@
 <a href="#"><img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular"></a>
 <a href="#"><img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" alt="Vue.js"></a>
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br>
+
 <!-- Database -->
 <h3>• Database</h3>
 <a href="#"><img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite"></a>
@@ -35,6 +38,8 @@
 <a href="#"><img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"></a>
 <a href="#"><img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"></a>
 <a href="#"><img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"></a>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br>
 
 <!-- Software & Tools -->
 <h3>• Software & Tools</h3>
@@ -44,6 +49,8 @@
 <a href="#"><img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS"></a>
 <a href="#"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku"></a>
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br>
+
 <!-- IDE -->
 <h3>• IDE</h3>
 <a href="#"><img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"></a>
@@ -52,6 +59,7 @@
 <a href="#"><img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white" alt="IntelliJ IDEA"></a>
 <a href="#"><img src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white" alt="PyCharm"></a>
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br>
 
 <h2 align="center">📬 Connect with me</h2>
 <p align="center">
@@ -75,5 +83,3 @@
       <img loading="lazy" src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white" alt="Reddit">
    </a>
 </p>
-
-
