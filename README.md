@@ -84,3 +84,4 @@
    </a>
 </p>
 
+![snake gif](https://github.com/Rafaellaerin/Rafaellaerin/blob/output/github-contribution-grid-snake.svg)
