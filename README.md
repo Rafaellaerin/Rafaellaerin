@@ -74,7 +74,7 @@
    </a>
    &nbsp;&nbsp;
    <!-- Discord -->
-   <a href="https://discord.gg/vrnuB28eyP" target="_blank">
+   <a href="https://discord.gg/ZeM9MmahCs" target="_blank">
       <img loading="lazy" src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
    </a>
    &nbsp;&nbsp;
