@@ -5,7 +5,6 @@
 | Top Languages | GitHub Profile Card |
 |---------------|---------------------|
 | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Rafaellaerin&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact) | ![GitHub Profile Card](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Rafaellaerin&theme=radical) | 
-<img height="170em" style="border: none !important;" src="https://github-readme-stats.vercel.app/api?username=caiolandgraf&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true" />
 
 <h2>Skills</h2>
 
