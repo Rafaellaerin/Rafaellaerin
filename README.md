@@ -4,7 +4,7 @@
 
 | Top Languages | GitHub Profile Card |
 |---------------|---------------------|
-| ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Rafaellaerin&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact) | ![GitHub Profile Card](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Rafaellaerin&theme=radical) | 
+| ![GitHub Profile Card](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Rafaellaerin&theme=radical) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Rafaellaerin&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact) | 
 
 <h2>Skills</h2>
 
