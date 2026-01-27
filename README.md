@@ -59,33 +59,6 @@
 <a href="#"><img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white" alt="IntelliJ IDEA"></a>
 <a href="#"><img src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white" alt="PyCharm"></a>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br>
-
-<h2 align="center">📬 Connect with me</h2>
-<p align="center">
-   <!-- Instagram -->
-   <a href="https://www.instagram.com/LaerinX" target="_blank">
-      <img loading="lazy" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
-   </a>
-   &nbsp;&nbsp;
-   <!-- Twitter -->
-   <a href="https://twitter.com/Rafaellaerin" target="_blank">
-      <img loading="lazy" src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter">
-   </a>
-   &nbsp;&nbsp;
-   <!-- Discord -->
-   <a href="https://discord.gg/ZeM9MmahCs" target="_blank">
-      <img loading="lazy" src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
-   </a>
-   &nbsp;&nbsp;
-   <!-- Reddit -->
-   <a href="https://www.reddit.com/user/Hot-Fun2441" target="_blank">
-      <img loading="lazy" src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white" alt="Reddit">
-   </a>
-</p>
-
-
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rafaellaerin/Rafaellaerin/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rafaellaerin/Rafaellaerin/output/github-contribution-grid-snake.svg">
