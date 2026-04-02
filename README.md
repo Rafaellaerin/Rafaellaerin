@@ -2,10 +2,9 @@
 
 <h1> ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀📊 GitHub Stats</h1>
 
-<p align="center">
-  <img height="180em" src="./profile/stats.svg" />
-  <img height="180em" src="./profile/top-langs.svg" />
-</p>
+| DevScore | Top Languages |
+| --- | --- |
+| <img height="170em" src="./profile/stats.svg" /> | <img height="170em" src="./profile/top-langs.svg" /> |
 
 <h2>Skills</h2>
 
