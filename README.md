@@ -3,8 +3,8 @@
 <h1> ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀📊 GitHub Stats</h1>
 
 | DevScore | Top Languages |
-|---------------|---------------------|
-| <img height="170em" style="border: none !important;" src="https://github-readme-stats.vercel.app/api?username=Rafaellaerin&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&cache_seconds=10" /> | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Rafaellaerin&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact) |
+| --- | --- |
+| <img height="170em" src="https://github-readme-stats.vercel.app/api?username=Rafaellaerin&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true" /> | <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rafaellaerin&theme=github_dark&layout=compact&include_all_commits=true&count_private=true" /> |
 
 <h2>Skills</h2>
 
