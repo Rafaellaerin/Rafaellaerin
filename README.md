@@ -20,7 +20,7 @@
 <a href="#"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></a>
 <a href="#"><img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"></a>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=6&section=header" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2f2f2f,100:2f2f2f&height=2&section=header" width="100%">
 
 <!-- Website -->
 <h3>• Website</h3>
@@ -31,7 +31,7 @@
 <a href="#"><img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular"></a>
 <a href="#"><img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" alt="Vue.js"></a>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2f2f2f,100:2f2f2f&height=2&section=header" width="100%">
 
 <!-- Database -->
 <h3>• Database</h3>
@@ -41,7 +41,7 @@
 <a href="#"><img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"></a>
 <a href="#"><img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"></a>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2f2f2f,100:2f2f2f&height=2&section=header" width="100%">
 
 <!-- Software & Tools -->
 <h3>• Software & Tools</h3>
@@ -51,7 +51,7 @@
 <a href="#"><img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS"></a>
 <a href="#"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku"></a>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2f2f2f,100:2f2f2f&height=2&section=header" width="100%">
 
 <!-- IDE -->
 <h3>• IDE</h3>
