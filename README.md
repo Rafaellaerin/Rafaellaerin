@@ -3,12 +3,8 @@
 <h1> ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀📊 GitHub Stats</h1>
 
 <p align="center">
-  <a href="https://github.com/Rafaellaerin">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Rafaellaerin&show_icons=true&theme=github_dark&include_all_commits=true&cache_seconds=21600&locale=pt-br" />
-  </a>
-  <a href="https://github.com/Rafaellaerin?tab=repositories">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs?username=Rafaellaerin&theme=github_dark&layout=compact&langs_count=8&card_width=320&cache_seconds=21600&locale=pt-br" />
-  </a>
+  <img height="180em" src="./profile/stats.svg" />
+  <img height="180em" src="./profile/top-langs.svg" />
 </p>
 
 <h2>Skills</h2>
