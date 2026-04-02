@@ -4,7 +4,7 @@
 
 | DevScore | Top Languages |
 | --- | --- |
-| <img height="170em" src="https://github-readme-stats.vercel.app/api?username=Rafaellaerin&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true" /> | <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rafaellaerin&theme=github_dark&layout=compact&include_all_commits=true&count_private=true" /> |
+| <img height="170em" src="https://github-readme-stats.vercel.app/api?username=Rafaellaerin&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&cache_seconds=86400" /> | <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rafaellaerin&theme=github_dark&layout=compact&include_all_commits=true&count_private=true&cache_seconds=86400" /> |
 
 <h2>Skills</h2>
 
