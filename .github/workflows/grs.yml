@@ -33,12 +33,13 @@ jobs:
       - name: Generate stats card
         shell: bash
         run: |
-          set -euo pipefail
           mkdir -p profile
-          curl --fail --location --retry 3 --retry-delay 3 \
+          rm -f profile/stats.svg
+          curl --silent --show-error --location --retry 3 --retry-delay 3 \
             --header "User-Agent: Rafaellaerin-profile-workflow" \
             --output profile/stats.svg \
-            "https://github-readme-stats.vercel.app/api?username=Rafaellaerin&show_icons=true&theme=github_dark&locale=pt-br&commits_year=2026"
+            "https://github-stats-extended.vercel.app/api?username=Rafaellaerin&show_icons=true&theme=github_dark&locale=pt-br&commits_year=2026" \
+            || echo "::warning::Public stats endpoint request failed."
 
       - name: Generate top languages card
         uses: stats-organization/github-readme-stats-action@v2
@@ -55,7 +56,7 @@ jobs:
           for card in profile/stats.svg profile/top-langs.svg; do
             if test ! -s "$card"; then
               echo "::warning file=$card::The generated card is empty or missing."
-            elif grep -Eqi 'Something went wrong|Resource not accessible|data-testid="message"' "$card"; then
+            elif grep -Eqi 'Something went wrong|Resource not accessible|data-testid="message"|<!DOCTYPE html>' "$card"; then
               echo "::warning file=$card::The generated card contains an API error."
             else
               echo "$card is valid."
@@ -70,7 +71,7 @@ jobs:
           path: |
             profile/stats.svg
             profile/top-langs.svg
-          if-no-files-found: error
+          if-no-files-found: warn
 
       - name: Commit cards
         if: github.event_name != 'pull_request'
