@@ -31,12 +31,14 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate stats card
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=github_dark&locale=pt-br
-          path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p profile
+          curl --fail --location --retry 3 --retry-delay 3 \
+            --header "User-Agent: Rafaellaerin-profile-workflow" \
+            --output profile/stats.svg \
+            "https://github-readme-stats.vercel.app/api?username=Rafaellaerin&show_icons=true&theme=github_dark&locale=pt-br&commits_year=2026"
 
       - name: Generate top languages card
         uses: stats-organization/github-readme-stats-action@v2
