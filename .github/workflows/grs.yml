@@ -6,12 +6,17 @@ on:
       - main
     paths:
       - .github/workflows/grs.yml
+  pull_request:
+    branches:
+      - main
+    paths:
+      - .github/workflows/grs.yml
   schedule:
     - cron: "0 3 * * *"
   workflow_dispatch:
 
 concurrency:
-  group: readme-cards
+  group: readme-cards-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -58,7 +63,17 @@ jobs:
             fi
           done
 
+      - name: Upload generated cards
+        uses: actions/upload-artifact@v4
+        with:
+          name: readme-cards
+          path: |
+            profile/stats.svg
+            profile/top-langs.svg
+          if-no-files-found: error
+
       - name: Commit cards
+        if: github.event_name != 'pull_request'
         shell: bash
         run: |
           set -euo pipefail
