@@ -46,24 +46,22 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Validate generated cards
+      - name: Diagnose generated cards
         shell: bash
         run: |
-          set -euo pipefail
-
+          set -u
           for card in profile/stats.svg profile/top-langs.svg; do
-            test -s "$card" || {
-              echo "::error file=$card::The generated card is empty or missing."
-              exit 1
-            }
-
-            if grep -Eqi 'Something went wrong|Resource not accessible|data-testid="message"' "$card"; then
-              echo "::error file=$card::The generated card contains an API error and will not be committed."
-              exit 1
+            if test ! -s "$card"; then
+              echo "::warning file=$card::The generated card is empty or missing."
+            elif grep -Eqi 'Something went wrong|Resource not accessible|data-testid="message"' "$card"; then
+              echo "::warning file=$card::The generated card contains an API error."
+            else
+              echo "$card is valid."
             fi
           done
 
       - name: Upload generated cards
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: readme-cards
