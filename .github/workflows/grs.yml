@@ -1,22 +1,12 @@
 name: Update README cards
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - .github/workflows/grs.yml
-  pull_request:
-    branches:
-      - main
-    paths:
-      - .github/workflows/grs.yml
   schedule:
     - cron: "0 3 * * *"
   workflow_dispatch:
 
 concurrency:
-  group: readme-cards-${{ github.ref }}
+  group: readme-cards
   cancel-in-progress: true
 
 jobs:
@@ -33,13 +23,15 @@ jobs:
       - name: Generate stats card
         shell: bash
         run: |
+          set -euo pipefail
           mkdir -p profile
-          rm -f profile/stats.svg
-          curl --silent --show-error --location --retry 3 --retry-delay 3 \
+          current_year="$(date -u +%Y)"
+
+          curl --fail-with-body --silent --show-error --location \
+            --retry 3 --retry-delay 3 \
             --header "User-Agent: Rafaellaerin-profile-workflow" \
             --output profile/stats.svg \
-            "https://github-stats-extended.vercel.app/api?username=Rafaellaerin&show_icons=true&theme=github_dark&locale=pt-br&commits_year=2026" \
-            || echo "::warning::Public stats endpoint request failed."
+            "https://github-stats-extended.vercel.app/api?username=Rafaellaerin&show_icons=true&theme=github_dark&locale=pt-br&commits_year=${current_year}"
 
       - name: Generate top languages card
         uses: stats-organization/github-readme-stats-action@v2
@@ -49,32 +41,24 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Diagnose generated cards
+      - name: Validate generated cards
         shell: bash
         run: |
-          set -u
+          set -euo pipefail
+
           for card in profile/stats.svg profile/top-langs.svg; do
-            if test ! -s "$card"; then
-              echo "::warning file=$card::The generated card is empty or missing."
-            elif grep -Eqi 'Something went wrong|Resource not accessible|data-testid="message"|<!DOCTYPE html>' "$card"; then
-              echo "::warning file=$card::The generated card contains an API error."
-            else
-              echo "$card is valid."
+            test -s "$card" || {
+              echo "::error file=$card::The generated card is empty or missing."
+              exit 1
+            }
+
+            if grep -Eqi 'Something went wrong|Resource not accessible|data-testid="message"|<!DOCTYPE html>' "$card"; then
+              echo "::error file=$card::The generated card contains an API error and will not be committed."
+              exit 1
             fi
           done
 
-      - name: Upload generated cards
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: readme-cards
-          path: |
-            profile/stats.svg
-            profile/top-langs.svg
-          if-no-files-found: warn
-
       - name: Commit cards
-        if: github.event_name != 'pull_request'
         shell: bash
         run: |
           set -euo pipefail
